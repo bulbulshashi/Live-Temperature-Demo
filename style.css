@@ -1,0 +1,252 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#header {
+  width: 100%;
+  height: 14vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#header h1 {
+  color: aqua;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#weather-deatils {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 35%;
+  border-radius: 10px;
+  border: 2px solid aqua;
+  padding-bottom: 30px;
+}
+
+.search-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-sec input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  color: aqua;
+  border: 2px solid aqua;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+
+
+}
+
+.search-sec button {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  color: aqua;
+  border: 2px solid aqua;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#city {
+  color: aqua;
+  margin-top: 23px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 35px;
+
+}
+
+
+
+.div-for-det {
+  margin-top: 20px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  color: aqua;
+  font-family: 'Orbitron', sans-serif;
+  align-items: center;
+
+}
+
+.sub-div {
+  padding-left: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+.sub-div1 {
+  padding-left: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    box-sizing: border-box;
+    background-color: black;
+  }
+
+  #header {
+    width: 100%;
+    height: 14vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #header h1 {
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+
+
+  }
+
+  #weather-deatils {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+  }
+
+  .weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    padding-bottom: 30px;
+  }
+
+  .search-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .search-sec input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    color: aqua;
+    border: 2px solid aqua;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+
+
+  }
+
+  .search-sec button {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    color: aqua;
+    border: 2px solid aqua;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+
+
+  }
+
+  #city {
+    color: aqua;
+    margin-top: 23px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+  }
+
+
+
+  .div-for-det {
+    margin-top: 20px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .sub-div {
+    padding-left: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 20px;
+
+  }
+
+  .sub-div1 {
+    padding-left: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+
+  }
+}
